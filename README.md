@@ -1,22 +1,16 @@
-# OOPS Banner App
+/**
+ * OOPSBannerApp
+ *
+ * Goal: UC1 - Print literal text "OOPS" to console.
+ *
+ * @author Mahadevan
+ * @version 1.0
+ */
+public class OOPSBannerApp {
 
-## Overview
+    public static void main(String[] args) {
 
-The OOPS Banner App is a Java application that demonstrates Object-Oriented Programming (OOP) concepts step-by-step.
+        System.out.println("OOPS");
 
-The application starts by displaying "OOPS" in the console and then extends to display it in Banner Format using '*' and spaces. The code is then refactored using functions, a class to store character patterns, and a Map to dynamically render the banner.
-
----
-
-## Use Case Implementation
-### UC2: Banner Output
-
-Displays:
-
-```
- *****   *****   *****   ***** 
-*     * *     * *     * *     *
-*     * *     * *     * *     *
- *****   *****   *****   ***** 
-```
-
+    }
+}
