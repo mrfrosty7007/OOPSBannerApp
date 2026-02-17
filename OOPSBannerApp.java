@@ -8,9 +8,6 @@
  */
 public class OOPSBannerApp {
 
-    /**
-     * Entry point of Java application
-     */
     public static void main(String[] args) {
 
         System.out.println(" *****   *****   *****   ***** ");
