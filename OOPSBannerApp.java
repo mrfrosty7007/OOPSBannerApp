@@ -1,24 +1,22 @@
 /**
  * OOPSBannerApp
  *
- * Goal: UC1 - Print literal text "OOPS" to console.
- *
- * This is the entry point of the application.
+ * Goal: UC2 - Display "OOPS" in Banner Format using '*' and spaces.
  *
  * @author Mahadevan
- * @version 1.0
+ * @version 1.1
  */
 public class OOPSBannerApp {
 
     /**
-     * Main method - Entry point of Java application
-     * 
-     * @param args command-line arguments
+     * Entry point of Java application
      */
     public static void main(String[] args) {
 
-        // Print literal string "OOPS"
-        System.out.println("OOPS");
+        System.out.println(" *****   *****   *****   ***** ");
+        System.out.println("*     * *     * *     * *     *");
+        System.out.println("*     * *     * *     * *     *");
+        System.out.println(" *****   *****   *****   ***** ");
 
     }
 }
