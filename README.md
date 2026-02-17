@@ -1,22 +1,25 @@
-# OOPS Banner App
-
-## Overview
-
-The OOPS Banner App is a Java application that demonstrates Object-Oriented Programming (OOP) concepts step-by-step.
-
-The application starts by displaying "OOPS" in the console and then extends to display it in Banner Format using '*' and spaces. The code is then refactored using functions, a class to store character patterns, and a Map to dynamically render the banner.
-
 ---
 
-## Use Case Implementation
+### UC3: String Join Refactoring
 
-### UC2: Simple Output
-Displays:
+**Goal:**  
+Refactor UC2 by replacing traditional string concatenation with the `String.join()` method to construct each banner line more efficiently.
 
+**Problem in UC2:**  
+Using `+` for string concatenation creates multiple intermediate `String` objects due to string immutability, leading to unnecessary memory usage.
 
+**Solution in UC3:**  
+Used `String.join()` to construct each line of the banner in a cleaner and more memory-efficient way.
+
+**Code Approach:**
+- Created each banner row using `String.join(" ", parts...)`
+- Printed each row using `System.out.println()`
+- Preserved original banner layout
+
+**Output:**
 ```
- *****   *****   *****   ***** 
-*     * *     * *     * *     *
-*     * *     * *     * *     *
- *****   *****   *****   ***** 
+***** ***** ***** *****
+*   * *   * *   * *   *
+*   * *   * *   * *   *
+***** ***** ***** *****
 ```
