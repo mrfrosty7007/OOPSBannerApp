@@ -12,3 +12,5 @@ The application starts by displaying "OOPS" in the console and then extends to d
 
 ### UC1: Simple Output
 Displays:
+
+OOPS
