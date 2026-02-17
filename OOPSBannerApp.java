@@ -4,7 +4,7 @@
  * Goal: UC2 - Display "OOPS" in Banner Format using '*' and spaces.
  *
  * @author Mahadevan
- * @version 1.1
+ * @version 2.0
  */
 public class OOPSBannerApp {
 
