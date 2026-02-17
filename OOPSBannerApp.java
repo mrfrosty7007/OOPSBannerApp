@@ -1,63 +1,24 @@
-import java.util.*;
-
-class CharacterPattern {
-
-    String[] pattern;
-
-    CharacterPattern(String[] pattern) {
-        this.pattern = pattern;
-    }
-}
-
+/**
+ * OOPSBannerApp
+ *
+ * Goal: UC1 - Print literal text "OOPS" to console.
+ *
+ * This is the entry point of the application.
+ *
+ * @author Mahadevan
+ * @version 1.0
+ */
 public class OOPSBannerApp {
 
-    static Map<Character, CharacterPattern> patterns = new HashMap<>();
-
-    static {
-
-        patterns.put('O', new CharacterPattern(new String[] {
-                " ***** ",
-                "*     *",
-                "*     *",
-                "*     *",
-                " ***** "
-        }));
-
-        patterns.put('P', new CharacterPattern(new String[] {
-                " ***** ",
-                "*     *",
-                " ***** ",
-                "*      ",
-                "*      "
-        }));
-
-        patterns.put('S', new CharacterPattern(new String[] {
-                " ***** ",
-                "*      ",
-                " ***** ",
-                "      *",
-                " ***** "
-        }));
-
-    }
-
-    static void printBanner(String text) {
-
-        for (int row = 0; row < 5; row++) {
-
-            for (char c : text.toCharArray()) {
-
-                System.out.print(patterns.get(c).pattern[row] + " ");
-            }
-
-            System.out.println();
-        }
-
-    }
-
+    /**
+     * Main method - Entry point of Java application
+     * 
+     * @param args command-line arguments
+     */
     public static void main(String[] args) {
 
-        printBanner("OOPS");
+        // Print literal string "OOPS"
+        System.out.println("OOPS");
 
     }
 }
