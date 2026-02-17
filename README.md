@@ -9,6 +9,14 @@ The application starts by displaying "OOPS" in the console and then extends to d
 ---
 
 ## Use Case Implementation
+### UC2: Banner Output
 
-### UC1: Simple Output
 Displays:
+
+```
+ *****   *****   *****   ***** 
+*     * *     * *     * *     *
+*     * *     * *     * *     *
+ *****   *****   *****   ***** 
+```
+
