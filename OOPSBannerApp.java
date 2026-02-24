@@ -1,19 +1,28 @@
 /**
  * OOPSBannerApp
  *
- * Goal: UC2 - Display "OOPS" in Banner Format using '*' and spaces.
+ * Goal: UC4 - Display "OOPS" banner using String Array and Loop
+ *
+ * Refactored for modularity and reusability.
  *
  * @author Mahadevan
- * @version 2.0
+ * @version 4.0
  */
+
 public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
-        System.out.println(" *****   *****   *****   ***** ");
-        System.out.println("*     * *     * *     * *     *");
-        System.out.println("*     * *     * *     * *     *");
-        System.out.println(" *****   *****   *****   ***** ");
+        String[] banner = {
+                String.join("   ", "*****", "*****", "*****", "*****"),
+                String.join("   ", "*   *", "*   *", "*   *", "*   *"),
+                String.join("   ", "*   *", "*   *", "*   *", "*   *"),
+                String.join("   ", "*****", "*****", "*****", "*****")
+        };
 
+        // Enhanced for-loop
+        for (String line : banner) {
+            System.out.println(line);
+        }
     }
 }
