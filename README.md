@@ -10,13 +10,13 @@ The application starts by displaying "OOPS" in the console and then extends to d
 
 ## Use Case Implementation
 
-### UC2: Simple Output
+### UC4: Simple Output
 Displays:
 
 
 ```
- *****   *****   *****   ***** 
-*     * *     * *     * *     *
-*     * *     * *     * *     *
- *****   *****   *****   ***** 
+*****   *****   *****   *****
+*   *   *   *   *   *   *   *
+*   *   *   *   *   *   *   *
+*****   *****   *****   *****
 ```
